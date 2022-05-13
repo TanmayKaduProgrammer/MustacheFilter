@@ -1,0 +1,17 @@
+body{
+    background:url('download.png');
+    text-align:center;
+}
+.btn-success:hover{
+    background-color: red;
+    border-color:white;
+}
+canvas{
+    animation-name:video_screen; 
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+}
+@keyframes video_screen{
+    from{box-shadow:1px 1px 38px red;}
+    to{box-shadow:1px 1px 38px yellow;}
+}
